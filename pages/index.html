@@ -55,9 +55,39 @@
         <label for="name">Naam:
         </label>
         <input type="text" id="name">
+        <br>
+        <br>
         <label for="email">Email:
         </label>
         <input type="text" id="email">
+
+
+    </fieldset>
+</form>
+<form>
+    <fieldset>
+        <legend>Jouw review</legend>
+        <label for="source-found">Hoe heb je dit recept gevonden?</label>
+        <select name="source-found" id="source-found">
+            <option value="Anders">Anders</option>
+            <option value="Google">Google</option>
+            <option value="Vriend">Vriend</option>
+            <option value="Kookworkshop">Kookworkshop</option>
+            <option value="Receptenboek">Receptenboek</option>
+        </select>
+        <br>
+        <br>
+        <p>Zou je dit recept willen uitproberen?</p>
+        <div>
+            <input type="radio" id="Ja" name="try-recipe" value="Ja"
+            checked>
+            <label for="Ja">Ja</label>
+        </div>
+        <div>
+            <input type="radio" id="Nee" name="try-recipe" value="Nee">
+            <label for="Nee">Nee</label>
+        </div>
+        </select>
 
 
     </fieldset>
